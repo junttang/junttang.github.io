@@ -14,7 +14,7 @@ subtitle: "편리한 세상을 만드는 개발자"
 email: junttang123@naver.com
 name: Hyeok
 description: >
-   Hyeok's Technology & Development Blog
+   Hello Hyeok's World!
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -78,8 +78,8 @@ descriptions:
 social:
   - name: Twitter
     icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
+    username: ""
+    url: ""
     desc: Follow me on Twitter
     share: false
 
@@ -99,8 +99,8 @@ social:
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    username: ""
+    url: ""
     desc: Connect with me on LinkedIn
     share: false
 
