@@ -11,7 +11,7 @@ exclude:
 # Site settings
 title: Hyeokio
 subtitle: "A simple yet classy theme for your Jekyll website or blog"
-email: blcentra@gmail.com
+email: junttang123@naver.com
 name: Ben Centra
 description: >
    A simple yet classy theme for your Jekyll website or blog
@@ -92,17 +92,17 @@ social:
 
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
-    desc: Fork me on GitHub
-    share: false
+    username: Hyeok's Git
+    url: https://github.com/junttang
+    desc: Come to my Github!
+    share: true
 
   - name: LinkedIn
     icon: linkedin
     username: Ben Centra
     url: https://www.linkedin.com/pub/ben-centra/47/769/60a
     desc: Connect with me on LinkedIn
-    share: true
+    share: false
 
   - name: Google+
     icon: google-plus
