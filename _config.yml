@@ -10,11 +10,11 @@ exclude:
 
 # Site settings
 title: Hyeokio
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
+subtitle: "편리한 세상을 만드는 개발자"
 email: junttang123@naver.com
-name: Ben Centra
+name: Hyeok
 description: >
-   A simple yet classy theme for your Jekyll website or blog
+   Hyeok's Technology & Development Blog
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -81,7 +81,7 @@ social:
     username: TheBenCentra
     url: https://twitter.com/TheBenCentra
     desc: Follow me on Twitter
-    share: true
+    share: false
 
   - name: Facebook
     icon: facebook
@@ -120,10 +120,10 @@ social:
 
   - name: Instagram
     icon: instagram
-    username: ""
-    url: ""
-    desc: Follow me on Instagram
-    share: false
+    username: Hyeoknim
+    url: https://www.instagram.com/hyeok_nim/
+    desc: Welcome to my Instagram
+    share: true
 
   - name: Pinterest
     icon: pinterest
