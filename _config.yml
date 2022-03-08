@@ -162,10 +162,10 @@ social:
 
   - name: Vimeo
     icon: vimeo-square
-    username: ""
-    url: ""
-    desc: Follow me on Vimeo
-    share: false
+    username: Hyeok's Log
+    url: https://velog.io/@junttang
+    desc: Come to my Velog!
+    share: true
 
   - name: Vine
     icon: vine
