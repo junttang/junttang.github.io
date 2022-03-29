@@ -57,8 +57,17 @@ descriptions:
   - cat: jekyll
     desc: "Posts describing Jekyll setup techniques."
 
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: DB
+    desc: "The Concepts of Database System"
+
+  - cat: SP
+    desc: "The Concepts of System Programming"
+
+  - cat: PL
+    desc: "The Concpets of Programming Language"    
+
+  - cat: SWE
+    desc: "The Concepts of Software Engineering"        
 
 # Social icons and sharing options
 #
