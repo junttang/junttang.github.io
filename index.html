@@ -1,6 +1,6 @@
 <!-------------------------------------------------->
 <!-- Title: Hyeok's personal website source codes -->
-<!------------- Last Update: Nov/22/2024 ----------->
+<!------------- Last Update: Dec/06/2024 ----------->
 <!-------------------------------------------------->
 <!DOCTYPE html>
 <html lang="en">
@@ -427,14 +427,146 @@
         </div>
     </section>
 
+<!-- 8.5 I Also Love Vinyl -->
+<section class="content-section bg-dark text-white text-center" id="vinyl">
+    <div class="container px-4 px-lg-5">
+        <div data-aos="fade"
+             data-aos-duration="1500"
+             data-aos-anchor-placement="top-bottom"
+             class="mini_title">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                    <!-- Vinyl Record Container -->
+                    <div class="vinyl-container position-relative" onclick="showPopup()">
+                        <!-- Album Cover -->
+                        <img src="assets/img/rolling_stones_let_it_bleed.jpg" alt="Vinyl Cover" class="album-cover img-fluid rounded-circle">
+                        <!-- Rotating Vinyl -->
+                        <div class="vinyl-disc"></div>
+                    </div>
+                    <h4 class="mt-4">"You Can't Always Get What You Want" - The Rolling Stones</h4>
+                    <p class="lead mb-5">From the album <em>Let It Bleed</em> (1969)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Popup Modal -->
+<div id="popup-modal" class="popup-modal">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <h4>"You Can't Always Get What You Want" - The Rolling Stones</h4>
+        <p>Mick Jagger’s presence during the Rolling Stones’ live performances in the late 1960s is so stylish and captivating that it’s hard to believe it was over half a century ago. And this song? Pure perfection. Is this what they mean when they say ‘classics are timeless’? Or does it challenge our quiet assumption that the present is always more refined than the past? </br> Whatever the case, one thing is clear: I want to create or be part of something that, like them, will be remembered for generations—not just remembered, but still seen as effortlessly cool and impressive decades from now. </br> This winter, as I soak in the warmth and grandeur of this song, I’ll gather my energy and focus for the year ahead.</p>
+    </div>
+</div>
+
+<style>
+    /* Vinyl Container */
+    .vinyl-container {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        cursor: pointer; /* 클릭 가능 표시 */
+    }
+
+    /* Album Cover Style */
+    .album-cover {
+        width: 75%;
+        height: 75%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    /* Vinyl Disc Style */
+    .vinyl-disc {
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle, #000 58%, transparent 80%), /* 중심 비워진 원 */
+                    repeating-linear-gradient(
+                        0deg,
+                        rgba(255, 255, 255, 0.1),
+                        rgba(255, 255, 255, 0.1) 2px,
+                        transparent 2px,
+                        transparent 4px
+                    ); /* 빗살 패턴 */
+        border: 5px solid #292929;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        animation: spin 8s linear infinite;
+    }
+
+    /* Disc Animation */
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    /* Modal Container */
+    .popup-modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    /* Modal Content */
+    .popup-content {
+        background-color: #fff;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    /* Close Button */
+    .close-btn {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close-btn:hover, .close-btn:focus {
+        color: black;
+        text-decoration: none;
+    }
+</style>
+
+<script>
+    // Show the popup modal
+    function showPopup() {
+        document.getElementById('popup-modal').style.display = 'block';
+    }
+
+    // Close the popup modal
+    function closePopup() {
+        document.getElementById('popup-modal').style.display = 'none';
+    }
+</script>
+
     <!-- 9. How to Contact me -->
-    <section class="content-section bg-dark text-white" id="contact">
+    <section class="content-section bg-white text-dark" id="contact">
         <div class="container px-4 px-lg-5 text-center">
             <div data-aos="fade-up"
                  data-aos-duration="1000"
                  data-aos-anchor-placement="top-bottom"
                  class="mini_title">
-                <h2 class="mb-4">You can contact me through the buttons below!</h2>
+                <h1 class="mb-4">You can contact me through the buttons below!</h1>
             </div>
         </div>
     </section>
