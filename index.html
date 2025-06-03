@@ -1,6 +1,6 @@
 <!-------------------------------------------------->
 <!-- Title: Hyeok's personal website source codes -->
-<!------------- Last Update: May/26/2025 ----------->
+<!------------- Last Update: Jun/03/2025 ----------->
 <!-------------------------------------------------->
 <!DOCTYPE html>
 <html lang="en">
@@ -528,15 +528,15 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-6 col-md-8">
                         <!-- Vinyl Record Container -->
-                        <div class="vinyl-container position-relative" onclick="showPopup('popup-modal-2')">
+                        <div class="vinyl-container position-relative" onclick="showPopup('popup-modal-3')">
                             <!-- Album Cover -->
-                            <img src="assets/img/youhaeha_because_i_love_you.jpg" alt="Vinyl Cover"
+                            <img src="assets/img/beatles_yellow_submarine.jpg" alt="Vinyl Cover"
                                 class="album-cover img-fluid rounded-circle">
                             <!-- Rotating Vinyl -->
                             <div class="vinyl-disc"></div>
                         </div>
-                        <h4 class="mt-4">"Our Love" - Yoo Jae-ha</h4>
-                        <p class="lead mb-5">From the album <em>Because I Love You</em> (1987)</p>
+                        <h4 class="mt-4">"Hey Bulldog" - The Beatles</h4>
+                        <p class="lead mb-5">From the album <em>Yellow Submarine</em> (1969)</p>
                     </div>
                 </div>
             </div>
@@ -544,13 +544,13 @@
         <div class="container px-4 px-lg-5">
             <div class="d-flex flex-row justify-content-center flex-wrap gap-2">
                 <div class="history-list">
-                    <div class="history-item" onclick="showPopup('popup-modal-1')">
-                        <img src="assets/img/rolling_stones_let_it_bleed.jpg" class="history-cover">
+                    <div class="history-item" onclick="showPopup('popup-modal-2')">
+                        <img src="assets/img/youhaeha_because_i_love_you.jpg" class="history-cover">
                     </div>
                 </div>
                 <div class="history-list">
-                    <div class="history-item" onclick="showPopup()">
-                        <img src="assets/img/vinyl.png" class="history-cover">
+                    <div class="history-item" onclick="showPopup('popup-modal-1')">
+                        <img src="assets/img/rolling_stones_let_it_bleed.jpg" class="history-cover">
                     </div>
                 </div>
                 <div class="history-list">
@@ -573,6 +573,16 @@
     </section>
 
     <!-- Popup Modal -->
+    <div id="popup-modal-3" class="popup-modal">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-modal-3')">&times;</span>
+            <h4>"Hey Bulldog" - The Beatles</h4>
+            <h5>From the album <i>Yellow Submarine</i> (1969)</h5>
+            <p>One of the most meaningless questions might be: “Which Beatles song is the most innovative?” Because honestly, their entire musical journey was innovation itself. When they debuted, the world of popular music was mostly confined to jazz, blues, and early rock and roll. But within just eight years, The Beatles had pushed those boundaries so far that by the time they disbanded, nearly every kind of modern rock and pop music was blooming, and they were at the very front of that revolution. So picking a single “most innovative” song almost feels pointless. Still, we humans love ranking stuff, and I’m no exception, lol. If you ask Beatles fans, you’ll likely hear names like <i>Tomorrow Never Knows, A Day in the Life, Helter Skelter, Happiness is a Warm Gun,</i> or <i>I Am the Walrus</i>. All of them are legendary for a reason, and I’ve got no argument with any of those picks. </br> 
+               But lately, I keep coming back to a lesser-known track: <i>Hey Bulldog</i> from the Yellow Submarine album. It’s not one of their most talked-about songs. Not even close. But man, it grooves. It’s got this raw, punchy energy, an infectious chorus, and a kind of stylish cool that honestly wouldn’t feel out of place if it dropped on Spotify today. To me, Hey Bulldog is a perfect summer track, the kind you want in your ears while wandering around a bustling city like New York under a cloudless blue sky. It feels free, playful, and just the right amount of chaotic. So this summer, I’ll be blasting this nearly 60-year-old gem that still sounds fresh as ever. And just like the song, I hope to live a little more boldly, chase some new ideas, travel around, and maybe make something cool of my own. Let’s go. </br> <i><b>written in June 2025.</b></i></p>
+        </div>
+    </div>
+
     <div id="popup-modal-2" class="popup-modal">
         <div class="popup-content">
             <span class="close-btn" onclick="closePopup('popup-modal-2')">&times;</span>
