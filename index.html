@@ -1,6 +1,6 @@
 <!-------------------------------------------------->
 <!-- Title: Hyeok's personal website source codes -->
-<!------------- Last Update: Sep/27/2025 ----------->
+<!------------- Last Update: Oct/03/2025 ----------->
 <!-------------------------------------------------->
 <!DOCTYPE html>
 <html lang="en">
@@ -228,7 +228,7 @@
                                     <b>§</b> <span class="paper-title">ByteExpress: A High-Performance and Traffic-Efficient 
                                         Inline Transfer of Small Payloads over NVMe</span> (<b><u>J.Park</u></b>, J.Lee, Y.Kim) [In Proceedings
                                     of the 17th ACM Workshop on Hot Topics in Storage and File Systems
-                                    (<b style="color: #0375bd;">ACM HotStorage</b>), Boston, MA, USA, July 10-11, 2025] <i>(<a href="https://doi.org/10.1145/3736548.3737837">pdf</a>) (<a href="assets/hotstorage25_byteexpress_talk.pdf">talk</a>)</i> — <i><b style="color: #aa3f21;">Best Paper Award</b></i><br />
+                                    (<b style="color: #0375bd;">ACM HotStorage</b>), Boston, MA, USA, July 10-11, 2025] <i>(<a href="https://doi.org/10.1145/3736548.3737837">pdf</a>) (<a href="assets/hotstorage25_byteexpress_talk.pdf">talk</a>)</i> — <i><b style="color: #aa3f21;">Best Paper Award Winner</b></i><br />
                                     </div>
                                     <div style="margin-bottom: 8px;">
                                     <b>§</b> <span class="paper-title">KVAccel: A Novel Write Accelerator for
@@ -589,21 +589,26 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-6 col-md-8">
                         <!-- Vinyl Record Container -->
-                        <div class="vinyl-container position-relative" onclick="showPopup('popup-modal-3')">
+                        <div class="vinyl-container position-relative" onclick="showPopup('popup-modal-4')">
                             <!-- Album Cover -->
-                            <img src="assets/img/beatles_yellow_submarine.jpg" alt="Vinyl Cover"
+                            <img src="assets/img/wings_band_on_the_run.jpg" alt="Vinyl Cover"
                                 class="album-cover img-fluid rounded-circle">
                             <!-- Rotating Vinyl -->
                             <div class="vinyl-disc"></div>
                         </div>
-                        <h4 class="mt-4">"Hey Bulldog" - The Beatles</h4>
-                        <p class="lead mb-5">From the album <em>Yellow Submarine</em> (1969)</p>
+                        <h4 class="mt-4">"Picasso’s Last Words (Drink to Me)" - Paul McCartney and Wings</h4>
+                        <p class="lead mb-5">From the album <em>Band on the Run</em> (1973)</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container px-4 px-lg-5">
             <div class="d-flex flex-row justify-content-center flex-wrap gap-2">
+                <div class="history-list">
+                    <div class="history-item" onclick="showPopup('popup-modal-3')">
+                        <img src="assets/img/beatles_yellow_submarine.jpg" class="history-cover">
+                    </div>
+                </div>
                 <div class="history-list">
                     <div class="history-item" onclick="showPopup('popup-modal-2')">
                         <img src="assets/img/youhaeha_because_i_love_you.jpg" class="history-cover">
@@ -624,16 +629,22 @@
                         <img src="assets/img/vinyl.png" class="history-cover">
                     </div>
                 </div>
-                <div class="history-list">
-                    <div class="history-item" onclick="showPopup()">
-                        <img src="assets/img/vinyl.png" class="history-cover">
-                    </div>
-                </div>
             </div>
         </div>        
     </section>
 
     <!-- Popup Modal -->
+    <div id="popup-modal-4" class="popup-modal">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-modal-4')">&times;</span>
+            <h4>"Picasso’s Last Words (Drink to Me)" - Paul McCartney and Wings</h4>
+            <h5>From the album <i>Band on the Run</i> (1973)</h5>
+            <p>I’ve said this before, but I always insist that Paul McCartney’s true golden age wasn’t just during The Beatles (though that era was of course brilliant) but rather during his Wings years. The Wings era produced so many incredible songs, even if they’re not as well known in Korea. If anyone happens to read this, please, just give it a try. Listen to some of them. Beyond the big hits like <i>Silly Love Songs</i>, <i>With a Little Luck</i>, <i>Jet</i>, and <i>Band on the Run</i>, nearly every track on the regular albums is a hidden gem. </br>
+                Lately, I’ve been hooked on one song in particular. What makes it especially fascinating is the story behind it. One day, at dinner with Dustin Hoffman, McCartney claimed he could write a song about anything. Hoffman, who knew Picasso had just passed away, challenged him by pointing to Picasso’s last words (“Drink to me!”). Almost like a bet, McCartney sat down and composed a song on the spot. Even though it started from a somewhat playful challenge, the song turned out to be deeply emotional, carrying a sense of respect for Picasso. And the best part is how McCartney weaves in his signature mid-song shifts in mood and style—a hallmark of his songwriting throughout his career. </br>
+                To me, this is the essence of creativity: being able to draw inspiration from anything and turn it into something meaningful. McCartney is exactly that kind of artist. But did you know? When he first started making music, he mostly just covered or mimicked the American rock-and-roll songs that were popular in the UK at the time. Of course, his natural gift for melody is undeniable, but I believe it was years of hard work and accumulated experience that elevated his creativity to the point where he could write a song from something as random as Picasso’s last words. </br> <i><b>written in October 2025.</b></i></p>
+        </div>
+    </div>
+
     <div id="popup-modal-3" class="popup-modal">
         <div class="popup-content">
             <span class="close-btn" onclick="closePopup('popup-modal-3')">&times;</span>
