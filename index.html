@@ -1,6 +1,6 @@
 <!-------------------------------------------------->
 <!-- Title: Hyeok's personal website source codes -->
-<!------------- Last Update: Nov/23/2025 ----------->
+<!------------- Last Update: Dec/08/2025 ----------->
 <!-------------------------------------------------->
 <!DOCTYPE html>
 <html lang="en">
@@ -586,21 +586,26 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-6 col-md-8">
                         <!-- Vinyl Record Container -->
-                        <div class="vinyl-container position-relative" onclick="showPopup('popup-modal-4')">
+                        <div class="vinyl-container position-relative" onclick="showPopup('popup-modal-5')">
                             <!-- Album Cover -->
-                            <img src="assets/img/wings_band_on_the_run.jpg" alt="Vinyl Cover"
+                            <img src="assets/img/beatles_abbey_road.png" alt="Vinyl Cover"
                                 class="album-cover img-fluid rounded-circle">
                             <!-- Rotating Vinyl -->
                             <div class="vinyl-disc"></div>
                         </div>
-                        <h4 class="mt-4">"Picasso’s Last Words (Drink to Me)" - Paul McCartney and Wings</h4>
-                        <p class="lead mb-5">From the album <em>Band on the Run</em> (1973)</p>
+                        <h4 class="mt-4">"The End" - The Beatles</h4>
+                        <p class="lead mb-5">From the album <em>Abbey Road</em> (1969)</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container px-4 px-lg-5">
             <div class="d-flex flex-row justify-content-center flex-wrap gap-2">
+                <div class="history-list">
+                    <div class="history-item" onclick="showPopup('popup-modal-4')">
+                        <img src="assets/img/wings_band_on_the_run.jpg" class="history-cover">
+                    </div>
+                </div>
                 <div class="history-list">
                     <div class="history-item" onclick="showPopup('popup-modal-3')">
                         <img src="assets/img/beatles_yellow_submarine.jpg" class="history-cover">
@@ -621,16 +626,21 @@
                         <img src="assets/img/vinyl.png" class="history-cover">
                     </div>
                 </div>
-                <div class="history-list">
-                    <div class="history-item" onclick="showPopup()">
-                        <img src="assets/img/vinyl.png" class="history-cover">
-                    </div>
-                </div>
             </div>
         </div>        
     </section>
 
     <!-- Popup Modal -->
+    <div id="popup-modal-5" class="popup-modal">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-modal-5')">&times;</span>
+            <h4>"The End" - The Beatles</h4>
+            <h5>From the album <i>Abbey Road</i> (1969)</h5>
+            <p>I’ve reached the point where my three years of lab life are coming to an end. There were moments when I was exhausted by work, responsibilities, and research, as well as moments of frustration when all that effort did not lead to the results I had hoped for. But there were also moments at the very end when everything finally came together, when I saw a light and felt a deep sense of pride. There were joyful times too, laughing, talking, and exchanging ideas with colleagues. Leaving all of those memories behind, I am now preparing for a new beginning. </br>
+                In 1969, the Beatles had virtually decided to break up, yet they poured their final creative energy into what became the timeless masterpiece <i>Abbey Road</i>. The album’s effective closing track, <i>The End</i>, feels like a reflection of both the sorrow of parting and the excitement of starting anew. It is rich, emotional, and at the same time exhilarating. That is exactly how my heart feels at this moment. The final line of the song goes, <i>“And in the end, the love you take is equal to the love you make.”</i> From here on, I hope to live a life that truly puts those words into practice because, at the end, all we need is love. </br> <i><b>written in December 2025.</b></i></p>
+        </div>
+    </div>
+
     <div id="popup-modal-4" class="popup-modal">
         <div class="popup-content">
             <span class="close-btn" onclick="closePopup('popup-modal-4')">&times;</span>
@@ -914,11 +924,3 @@
 <!-------------------------------------------------->
 <!---------------------- End ----------------------->
 <!-------------------------------------------------->
-
-
-
-
-
-
-
-
